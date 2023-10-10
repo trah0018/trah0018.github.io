@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tony's Coffee Shop</title>
+</head>
+
+<body>
+    
+    <header>
+        <h1>Tony the Tiger's coffee Shop</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <main>
+        <h2> Contact us</h2>
+        <table border>
+            <caption> Hours of opperation</caption>
+            <thead>
+                <th>Day</th>
+                <th>Hours</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Mon-Fri</td>
+                    <td>6Am - 9PM</td>
+                </tr>
+                <tr>
+                    <td>Sat</td>
+                    <td>8AM - 11PM</td>
+                </tr>
+                <tr>
+                    <td>Sun</td>
+                    <td>Closed</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- adding setion for contact form -->
+        <section>
+            <h3> We would love to hear from you!</h3>
+            <!-- adding a form  -->
+            <form action="thank.html" method="post">
+
+                <div>
+                    <label for="Fullname"> Your name</label>
+                    <input type="text" id="fullname" name="fullname" placeholder="Anthony Trahan">
+                </div>
+                <div>
+                    <label for="youremail">Email</label>
+                    <input type="email" id="youremail"placeholder="Algonquin Email" value="@algonquinlive.com" required> 
+                </div>
+                <div>
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message"></textarea>
+                    <input type="number" name="tickets" id="tickets" min="2" max="10" step="2">
+                </div>
+                <div>
+                    <label for="">How many ticket? &#40;sold in pairs&#41</label>
+                    
+                </div>
+                <div>
+                    <label for="row">Row</label>
+                    <select name="row" id="row">
+                    <option value="front">Front Row</option>
+                    <option value="center" selected>Center</option>
+                    <option value="back">Back Row</option>
+                    </select>
+                    <div>
+                        <h3> have you been here before</h3>
+                        <label for="yes">Yes</label>
+                        <input type="radio" name="past" id="yes">
+                        <label for="no">No</label>
+                        <input type="radio" name="past" id="no">
+                    </div>
+                </div>
+                <div>
+                    <h3> Policies </h3>
+                    <input type="checkbox">
+                    <label for="policies"> I agree to the terms and conditions</label>
+                </div>
+                <button type="button">  Submit</button>
+            </form>
+            </section>
+        </main>
+        <!-- Site Footer -->
+        <footer>
+            <!-- special symbols for html can be found by googolign   -->
+        &copy; Tony's Coffee Shop
+    </footer>
+
+</body>
+
+</html>
