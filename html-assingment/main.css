@@ -5,6 +5,39 @@ body {
     font-size: 18px;
 }
 
-h1 {
+header, footer {
     background-color: cadetblue;
+}
+
+.site-title {
+    color: antiquewhite;
+}
+
+img {
+    box-shadow: 0 0 2px 1px black;
+}
+
+
+ul {
+    list-style-type: square;
+}
+
+ul li:nth-child(odd) {
+    background-color: #d5836c;
+}
+
+nav ul a,
+nav ul a:link
+nav ul a:visited {
+    background-color: antiquewhite;
+} 
+
+nav ul a:link {
+    text-decoration: none;
+}
+
+nav ul .current,
+nav ul a:hover,
+nav ul a:focus {
+    text-decoration: underline;
 }
