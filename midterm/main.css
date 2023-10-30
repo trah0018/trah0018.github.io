@@ -15,7 +15,7 @@ header {
 }
 .container{
     /* create a container containing everything inside the body tag */
-    max-width: 1200px;
+    width: 1200px;
     margin: 0 auto;
 }
 
@@ -40,7 +40,7 @@ header {
     display:inline-block;
     width: 28%;
     padding: 1.5em;
-    font-size: 30px;
+    font-size: 18px;
    
 }
 
