@@ -1,12 +1,13 @@
 body {
-    background-color:lightsalmon;
+    background-color: lightsalmon;
     font-size: 18px;
- }
+    font-family: sans-serif;
+}
 
- figure {
-    margin: 10px ;
- }
- 
+figure {
+    margin: 10px;
+}
+
 
 /* Style Header */
 header {
@@ -16,7 +17,8 @@ header {
     color: black;
     font-family: fantasy;
 }
-.container{
+
+.container {
     /* create a container containing everything inside the body tag */
     width: 1200px;
     margin: 0 auto;
@@ -25,24 +27,22 @@ header {
 
 
 header {
-    background: cadetblue url("./images/air_creebec.jpg") 
-    no-repeat center;
-    background-size:cover;
+    background: cadetblue url("./images/air_creebec.jpg") no-repeat center;
+    background-size: cover;
     font-size: 1.2rem;
     width: 100%;
-     }
+}
 
-  nav ul li {
-    display:inline-block;
+nav ul li {
+    display: inline-block;
     width: 28%;
     padding: 1.5em;
-    font-size: 18px;
-   
+    font-size: 18.5px;
+
 }
 
 nav ul a,
-nav ul a:link
-nav ul a:visited {
+nav ul a:link nav ul a:visited {
     background-color: lightsalmon;
     /* horizontal, vertical, blur, spread, color */
     box-shadow: 1px 1px 0px 0px #000;
@@ -54,11 +54,12 @@ nav ul a:visited {
 nav ul a:active {
     box-shadow: 0 0 1px 2px black;
 }
- .article img {
+
+.article img {
     width: 300px;
     float: left;
     margin: 20px;
- }
+}
 
 
 
@@ -66,15 +67,17 @@ nav ul a:active {
     border: 1px solid black;
 }
 
-input[type="text"], input[type="email"] {
+input[type="text"],
+input[type="email"] {
     padding: 10px;
-    font-size: 16px; 
+    font-size: 16px;
     margin-bottom: 15px;
     width: 1150px;
 }
+
 input[type="message"] {
     padding: 10px;
-    font-size: 16px; 
+    font-size: 16px;
     margin-bottom: 15px;
     width: 1150px;
     height: 100px;
