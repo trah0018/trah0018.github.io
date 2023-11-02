@@ -27,10 +27,12 @@ header {
 
 
 header {
-    background: cadetblue url("./images/air_creebec.jpg") no-repeat center;
+    background: cadetblue url("./images/aircreebec_plane.jpg") no-repeat center;
     background-size: cover;
     font-size: 1.2rem;
-    width: 100%;
+    width: 101.8%;
+    position: relative;
+    right: 10PX;
 }
 
 nav ul li {

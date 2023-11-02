@@ -21,7 +21,7 @@
      width: 1200px;
      margin: 0 auto;
      background: lightcyan;
-     padding: 10px;
+     padding: 0 10px 10px 10px;
  }
 
 
@@ -31,7 +31,6 @@
      font-size: 1.2rem;
      width: 102.7%;
      position: relative;
-     top: 100%;
      right: 15px;
 
  }
