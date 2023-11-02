@@ -1,92 +1,91 @@
- body {
-     background-color: cadetblue;
-     font-size: 18px;
- }
+body {
+    background-color: lightsalmon;
+    font-size: 18px;
+    font-family: sans-serif;
+}
 
- figure {
-     margin: 5px;
- }
-
-
- /* Style Header */
- header {
-     line-height: 12;
-     text-align: center;
-     font-size: 26px;
-     color: antiquewhite;
- }
-
- .container {
-     /* create a container containing everything inside the body tag */
-     width: 1200px;
-     margin: 0 auto;
-     background: lightcyan;
-     padding: 0 10px 10px 10px;
- }
+figure {
+    margin: 10px;
+}
 
 
- header {
-     background: cadetblue url("./images/lone-starfish-wide.jpg") no-repeat center;
-     background-size: cover;
-     font-size: 1.2rem;
-     width: 102.7%;
-     position: relative;
-     right: 15px;
+/* Style Header */
+header {
+    line-height: 12;
+    text-align: center;
+    font-size: 26px;
+    color: black;
+    font-family: fantasy;
+}
 
- }
-
- nav ul li {
-     display: inline-block;
-     width: 28%;
-     padding: 1.5em;
-     font-size: 18px;
-
- }
-
- nav ul a,
- nav ul a:link nav ul a:visited {
-     background-color: lightcyan;
-     /* horizontal, vertical, blur, spread, color */
-     box-shadow: 1px 1px 1px 1px #000;
-     display: block;
-     color: black;
-     text-decoration: none;
- }
-
- nav ul a:active {
-     box-shadow: 0 0 4px 2px black;
- }
-
- .article img {
-     width: 300px;
-     float: left;
-     margin: 20px;
- }
+.container {
+    /* create a container containing everything inside the body tag */
+    width: 1200px;
+    margin: 0 auto;
+    background: antiquewhite;
+}
 
 
+header {
+    background: cadetblue url("./images/aircreebec_plane.jpg") no-repeat center;
+    background-size: cover;
+    font-size: 1.2rem;
+    width: 101.8%;
+    position: relative;
+    right: 10PX;
+}
 
- .form {
-     border: 1px solid black;
-     padding: 10px;
- }
+nav ul li {
+    display: inline-block;
+    width: 28%;
+    padding: 1.5em;
+    font-size: 18.5px;
 
- input[type="text"],
- input[type="email"] {
-     padding: 10px;
-     font-size: 16px;
-     margin-bottom: 15px;
-     width: 1150px;
- }
+}
 
- input[type="message"] {
-     padding: 10px;
-     font-size: 16px;
-     margin-bottom: 15px;
-     width: 1150px;
-     height: 100px;
- }
+nav ul a,
+nav ul a:link nav ul a:visited {
+    background-color: lightsalmon;
+    /* horizontal, vertical, blur, spread, color */
+    box-shadow: 1px 1px 0px 0px #000;
+    display: block;
+    color: black;
+    text-decoration: none;
+}
 
- footer {
-     padding: 20px;
-     right: 100px;
- }
+nav ul a:active {
+    box-shadow: 0 0 1px 2px black;
+}
+
+.article img {
+    width: 300px;
+    float: left;
+    margin: 20px;
+}
+
+
+
+.form {
+    border: 1px solid black;
+}
+
+input[type="text"],
+input[type="email"] {
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    width: 1150px;
+}
+
+input[type="message"] {
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    width: 1150px;
+    height: 100px;
+}
+
+footer {
+    padding: 20px;
+    right: 100px;
+}
