@@ -64,7 +64,7 @@ nav ul a {
     background: cadetblue url(../Images/bread.jpg) 
     no-repeat center;
     /* background-size  */
-    background-size:cover;
+    background-size: cover;
     font-size: 1.25rem;
     /* 16px x 1.25 = 20px */
     /* padding puches the element away from the walls. */
@@ -74,6 +74,16 @@ nav ul a {
     /* height is 100% of the size and it is dynamic */
     
     /* height: 100vh; */
+    position: relative;
+    padding: 1em 1em 4em 1em;
+     }
+
+     /* position Absolute */
+     .blue-link.large-text {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+
      }
 
  /* Selecting html elements with class name */
@@ -142,7 +152,14 @@ h3~p {
     border: 4px solid darkslategray;
 }
 
-
+/* fixed navigation */
+nav{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
 
 nav ul a,
 nav ul a:link
