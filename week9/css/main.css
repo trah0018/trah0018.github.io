@@ -86,6 +86,7 @@ h5{
 .desktop-logo {
     display: none;
 }
+
 .banner
 {
     height: 600px;
@@ -120,7 +121,7 @@ border-radius: 6px;
 .site-footer {
     margin-top: 20px;
     padding: 20px 0;
-    border-top: 2px solid 00add8;
+    border-top: 2px solid #00add8;
 }
 
 .copy {
@@ -134,7 +135,7 @@ border-radius: 6px;
 html{
     font-size: 16px;
 }
-.mobil-logo {
+.mobile-logo {
     display: none;
 }
 .desktop-logo {
