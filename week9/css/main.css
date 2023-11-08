@@ -47,7 +47,7 @@ h3,
 h4,
 h5 {
     font-weight: bold;
-    margin: 1EM 0 0.5em;
+    margin: 1em 0 0.5em;
 }
 
 /* this means to ensure taht font size are proportionate to each other and not randome values */
@@ -125,4 +125,39 @@ border-radius: 6px;
 
 .copy {
     text-align: right;
+}
+
+/***************************
+            Destop Style
+*****************************/
+@media screen and (min-width:600px) {
+html{
+    font-size: 16px;
+}
+.mobil-logo {
+    display: none;
+}
+.desktop-logo {
+    display: inline-block;
+    max-width: 300px;
+}
+
+.banner{
+background-image: url(../images/smog-desktop.jpg)
+}
+
+.banner h1 {
+    color: white;
+}
+/* ************* app section****************** */
+
+.app img {
+    width:40%;
+    float: left;
+    margin-right: 1em;
+}
+.app .btn {
+    float: right;
+}
+
 }
