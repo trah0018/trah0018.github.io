@@ -1,0 +1,29 @@
+ul {
+    background-color:rgb(32, 30, 30);
+    
+}
+nav ul a,
+nav ul a:link nav ul a:visited {
+   
+    /* horizontal, vertical, blur, spread, color */
+    box-shadow: 1px 1px 0px 0px #000;
+    color:darkgoldenrod;
+    text-decoration: none;
+}
+
+nav ul li {
+    display: flex;
+    justify-content: center;
+  padding: .5em;
+font-size: 25px;
+font-family: sans-serif;
+}
+
+.header {
+    background: url("./images/main-banner.jpg") no-repeat center;
+    background-size: cover;
+    font-size: 1.2rem;
+    width: 101.8%;
+    position: relative;
+    right: 10PX;
+}
