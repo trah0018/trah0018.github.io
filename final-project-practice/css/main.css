@@ -19,11 +19,12 @@ font-size: 25px;
 font-family: sans-serif;
 }
 
-.header {
-    background: url("./images/main-banner.jpg") no-repeat center;
-    background-size: cover;
-    font-size: 1.2rem;
-    width: 101.8%;
-    position: relative;
-    right: 10PX;
+
+
+.container {
+    /* create a container containing everything inside the body tag */
+    width: 1200px;
+    margin: 0 auto;
+    background: antiquewhite;
 }
+
