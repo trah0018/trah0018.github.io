@@ -1,4 +1,4 @@
-ul {
+nav {
     background-color:rgb(32, 30, 30);
     
 }
@@ -25,6 +25,12 @@ font-family: sans-serif;
     /* create a container containing everything inside the body tag */
     width: 1200px;
     margin: 0 auto;
-    background: antiquewhite;
+ 
+}
+
+.three-star-media {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: 000000;
 }
 
