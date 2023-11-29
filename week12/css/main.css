@@ -1,0 +1,29 @@
+/* font-family: 'Pacifico', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Vina Sans', sans-serif; */
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+header, main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    font-family: 'Pacifico' ;
+    
+}
+
+.fa-solid {
+    font-size: 35px;
+}
+
+.map iframe {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    display: block;
+}
