@@ -1,7 +1,6 @@
-@media screen and (min-width:600px) {
-    html{
-        font-size: 16px;
-    }
+html {
+    font-family: Arial, Helvetica, sans-serif;
+  
 }
 
 .container {
@@ -10,11 +9,9 @@
     padding: 1em;
 }
 
-header {
-    background-image: url(../images/main-banner.jpg)
-}  
+ 
 ul {
-    max-width: 1000px;
+    max-width: 900px;
     margin: 0 auto;
     list-style: none;
 }
@@ -25,14 +22,18 @@ nav  {
 }
 
 ul li {
-    color: red;
+    color: white;
+ 
 }
+
 .nav-list a,
 .nav-list :link,
 .nav-list a:visited {
     display: block;
     padding: 1em 0;
     text-align: center;
+    color: darkgoldenrod;
+    text-decoration: none;
 }
 .nav-list a:hover,
 .nav-list a:focus,
@@ -54,3 +55,7 @@ ul li {
 .nav-list li:last-child {
 border:none
 }
+
+header {
+    background-image: url(../images/main-banner.jpg)
+} 
