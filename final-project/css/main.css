@@ -298,5 +298,82 @@ flex-basis:100%;
       font-size: 14px;
     font-weight: bold;
     margin: 2%;
+    
+}
+
+.line {
+    border: 1px solid darkgoldenrod;
+    margin-top: -5px;
+    margin-right: 5%;
+    margin-left: 2%;
+}
+
+.contact {
+    max-width: 900px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    
+    grid-template-areas: 
+    "header header"
+    "message location"
+    "hours hours"; 
+    gap: 20px;
+
+}
+
+.contact h3 {
+    grid-area: header;
+}
+
+.message-info {
+  grid-area: message;
+ 
+}
+
+.hours {
+  grid-area: hours;
+   
+}
+
+.location {
+    grid-area: location;
+    
+}
+
+.name input {
+    padding: 5px;
+    font-size: 14px;
+    margin-top: 15px;
+    width: 400px;
+}
+
+.email input {
+    padding: 5px;
+    font-size: 14px;
+    margin-top: 15px;
+    width: 400px;
+}
+    
+.message input {
+    padding: 5px;
+    font-size: 14px;
+    margin-top: 15px;
+    width: 400px;
+    padding-top: 100px;
+}
+
+.contact a {
+    background-color: rgb(24, 24, 22);
+    color: inherit;
+    display: block;
+    color: darkgoldenrod;
+    text-decoration: none;
+    margin-right: 85%;
+    margin-top: 5%;
+    padding: .3em 0;
+    text-align: center;
+    font-size: 20px;
+    
 }
 
