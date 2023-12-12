@@ -18,7 +18,7 @@ ul {
 
 nav  {
     background-color: rgb(24, 24, 22);
-    
+   
 }
 
 ul li {
@@ -57,5 +57,246 @@ border:none
 }
 
 header {
-    background-image: url(../images/main-banner.jpg)
+    background-image: url(../images/main-banner.jpg);
+    background-position: center;
+    background-size: 100%;
 } 
+
+.banner {
+    padding: 2%;
+}
+
+.three-star-media  {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color:hsla(24, 24%, 10%, .8);
+    
+}
+
+h1 {
+    margin: 3%;
+    color: white;
+    font-size: 70px;
+}
+
+.three-star-media p {
+    margin: 3%;
+    color: white;
+    font-size: 16px;
+}
+.three-star-media a {
+    background-color: darkgoldenrod;
+    color: inherit;
+    display: block;
+    color: black;
+    text-decoration: none;
+    margin-right: 75%;
+    margin-left: 3%;
+    padding: 2em 0;
+    text-align: center;
+    font-size: 20px;
+    
+}
+
+
+
+/* About us  */
+article {
+background-color: bisque;
+
+
+}
+
+.about-us {
+    max-width: 900px;
+    margin: 0 auto;
+
+}
+
+.about-us {
+    background-color: bisque;
+    display: grid;
+    grid-template-columns: 1fr 50%; /* Two columns of equal width */
+    gap: 20px; /* Gap between the columns */
+}
+
+.about-image img {
+    
+    max-width: 100%; /* Ensure the image doesn't exceed its container width */
+    width: 100%; /* Allow the image to take the entire width available in the grid cell */
+    height: auto; /* Maintain the image's aspect ratio */
+    object-fit: contain; 
+    margin-top: 6%;
+}
+
+.about-info {
+    max-width: 100%; /* Ensure the image doesn't exceed its container width */
+    width: 100%; /* Allow the image to take the entire width available in the grid cell */
+    height: auto; /* Maintain the image's aspect ratio */
+    object-fit: contain; 
+}
+
+.about-info h2 {
+    font-size: 42px;
+}
+
+
+/* our services */
+
+.our-services {
+   
+    max-width: 900px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); 
+    grid-template-rows: repeat(2 1fr);
+    grid-template-areas: 
+    "header header header header header header"
+    "digital digital digital marketing marketing marketing"
+    "video video web web print print"; 
+    gap: 20px;
+    
+}
+
+.services {
+    grid-area: header;
+}
+
+
+.digital {
+    grid-area: digital;
+}
+
+.marketing {
+    grid-area: marketing;
+    
+}
+
+.video {
+    grid-area: video;
+}
+
+.web{
+    grid-area: web;
+}
+
+.print{
+    grid-area: print;
+}
+
+
+/* allows to style Oer services cards all at once */
+.max-mar {
+background-color:bisque; 
+font-size: 14px;
+
+}
+
+.max-mar p {
+padding: 2%;
+}
+
+.max-mar img {
+    max-width: 100%; /* Ensure the image doesn't exceed its container width */
+    width: 100%; /* Allow the image to take the entire width available in the grid cell */
+    height: auto; /* Maintain the image's aspect ratio */
+    object-fit: contain; 
+    padding-right: 50%;
+}
+
+.max-mar a {
+    background-color: rgb(24, 24, 22);
+    color: inherit;
+    display: block;
+    color:white;
+    text-decoration: none;
+    padding: 1.5em 0;
+    text-align: center;
+    font-size: 20px;
+    margin: 5%;
+}
+
+h2 { 
+    font-size: 36px;
+}
+
+.max-mar h3 {
+    font-size: 28px;
+    margin: 2%;
+}
+
+/* Vision */
+
+.vision {
+    background-image: url(../images/vision.jpg);
+    background-position: center;
+    background-size: 100%;
+}
+
+.vision-info {
+    max-width: 900px;
+    margin: 0 auto;
+    color: white;
+    padding: 1%;
+}
+
+.vision-info a {
+    background-color:hsla(220, 20%, 5%, .4);
+    color: inherit;
+    color:white;
+    text-decoration: none;
+    padding: 1.5em 0;
+    text-align: center;
+    font-size: 20px;
+    display: inline-block;
+    width: 20%;
+    border: 1px solid darkgoldenrod;
+}
+
+h4 {
+font-size: 28px;
+}
+
+/* Our Team */
+
+.our-team {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+/* Using flex to display them propperly on the desktop version. */
+.our-team h2 {
+flex-basis:100%;
+}
+
+.john-image {
+    flex-basis: 50%;
+    order: 1;
+}
+.john-info {
+    flex-basis: 50%;
+    order: 2;
+}
+
+.bob-info {
+    flex-basis: 50%;
+    order: 3;
+
+}
+
+.bob-image {
+    flex-basis: 50%;
+    order: 4;
+}
+
+.max-mar{
+    position: relative;
+}
+
+.max-mar h5 {
+      font-size: 14px;
+    font-weight: bold;
+    margin: 2%;
+}
+
