@@ -1,6 +1,6 @@
 html {
     font-family: Arial, Helvetica, sans-serif;
-  
+
 }
 
 .container {
@@ -13,9 +13,9 @@ h3 {
     font-size: 28px;
 }
 
-
+/* nav section */
 ul {
-    
+
     list-style: none;
 }
 
@@ -25,6 +25,8 @@ nav  {
     padding-top: 3%;
     padding-right: 8%;
 }
+
+
 
 ul li {
     color: black;
@@ -43,8 +45,8 @@ ul li {
 
 .nav-list a:hover,
 .nav-list a:focus,
-.nav-list a.current, 
-.logo-container { 
+.nav-list a.current,
+.logo-container {
     background-color: darkgoldenrod;
     color: inherit;
 }
@@ -64,14 +66,15 @@ ul i {
     padding: 0.1em 0.2em .3em 0.2em;
     text-align: center;
     font-size: 20px;
-    border: 1px solid rgb(197, 162, 8); 
-} 
+    border: 1px solid rgb(197, 162, 8);
+}
 
+/* three star media banner section */
 
-.three-star-media  {
+.three-star-media {
     max-width: 900px;
     margin: 0 auto;
-    background-color:hsla(24, 24%, 10%, .8);
+    background-color: hsla(24, 24%, 10%, .8);
     padding: 1em;
 }
 
@@ -97,160 +100,165 @@ h1 {
     text-align: center;
     font-size: 20px;
 }
-    
-header {
-        background-image: url(../images/main-banner.jpg);
-        background-position:bottom;
-        background-size: 134%;
-        background-repeat: no-repeat;
-    } 
 
-    .banner {
-       padding-top: 15%;
-       padding-bottom: 15%;
-    }
-    
-/* About us  */
+header {
+    background-image: url(../images/main-banner.jpg);
+    background-position: bottom;
+    background-size: 134%;
+    background-repeat: no-repeat;
+}
+
+.banner {
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
+
+/* About us section */
 article {
     background-color: bisque;
-    
-    
-    }
 
-    .about-us {
-        max-width: 900px;
-        margin: 0 auto;
-    
-    }
-    
-    .about-us {
-      
-        gap: 20px; /* Gap between the columns */
-        padding: 2%;
-    }
-    
-    .about-image img {
-        max-width: 100%; /* Ensure the image doesn't exceed its container width */
-        width: 100%; /* Allow the image to take the entire width available in the grid cell */
-        height: auto; /* Maintain the image's aspect ratio */
-        object-fit: contain; 
-    }
-    
-    .about-info {
-        max-width: 100%; /* Ensure the image doesn't exceed its container width */
-        object-fit: contain;
-       
-    }
-    
-/* our services */
-    .our-services {
-   
-        max-width: 720px;
-        margin: 0 auto;
-       
-    }
-    
-    .services {
-        flex-basis: 100%;
-    }
-    
-    
-    .digital {
-        flex-basis: 100%;
-    }
-    
-    .marketing {
-        flex-basis: 100%;
-        
-    }
-    
-    .video {
-        flex-basis: 100%;
-    }
-    
-    .web{
-        flex-basis: 100%;
-    }
-    
-    .print{
-        flex-basis: 100%;
-    }
-    
-    /* allows to style Oer services cards all at once */
-    .max-mar {
-    background-color:bisque; 
-    font-size: 14px;
-    }
-    
-    .max-mar p {
+
+}
+
+.about-us {
+    max-width: 900px;
+    margin: 0 auto;
+
+}
+
+.about-us {
+
+    gap: 20px;
+    /* Gap between the columns */
     padding: 2%;
-    }
-    
-    .max-mar img {
-        max-width: 100%;
-        width: 100%; 
-        height: auto;
-        object-fit: contain; 
-        padding-right: 50%;
-    }
-    
-    .max-mar a {
-        background-color: rgb(24, 24, 22);
-        color: inherit;
-        display: block;
-        color:white;
-        text-decoration: none;
-        padding: 1.5em 0;
-        text-align: center;
-        font-size: 20px;
-        margin: 2%;
-        margin-right:65%;
-       
-    }
-    
-    h2 { 
-        font-size: 36px;
-    }
-    
-    .max-mar h3 {
-        font-size: 28px;
-        margin: 2%;
-    }
+}
 
-    /*  Our vision */
-    .vision {
-        background-image: url(../images/vision.jpg);
-        background-position: center;
-        background-size: 100%;
-        width: 100%;
-    }
-    
-    .vision-info {
-        max-width: 900px;
-        margin: 0 auto;
-        color: white;
-        padding: 2%;
-    }
-    
-    .vision-info a {
-        background-color:hsla(220, 20%, 5%, .4);
-        color: inherit;
-        color:white;
-        text-decoration: none;
-        padding: 1.5em 0;
-        text-align: center;
-        font-size: 20px;
-        display: inline-block;
-        width: 30%;
-        border: 1px solid darkgoldenrod;
-    }
-    
-    h4 {
+.about-image img {
+    max-width: 100%;
+    /* Ensure the image doesn't exceed its container width */
+    width: 100%;
+    /* Allow the image to take the entire width available in the grid cell */
+    height: auto;
+    /* Maintain the image's aspect ratio */
+    object-fit: contain;
+}
+
+.about-info {
+    max-width: 100%;
+    /* Ensure the image doesn't exceed its container width */
+    object-fit: contain;
+
+}
+
+/* our services section */
+.our-services {
+
+    max-width: 720px;
+    margin: 0 auto;
+
+}
+
+.services {
+    flex-basis: 100%;
+}
+
+
+.digital {
+    flex-basis: 100%;
+}
+
+.marketing {
+    flex-basis: 100%;
+
+}
+
+.video {
+    flex-basis: 100%;
+}
+
+.web {
+    flex-basis: 100%;
+}
+
+.print {
+    flex-basis: 100%;
+}
+
+/* allows to style multiple classes at once */
+.max-mar {
+    background-color: bisque;
+    font-size: 14px;
+}
+
+.max-mar p {
+    padding: 2%;
+}
+
+.max-mar img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    padding-right: 50%;
+}
+
+.max-mar a {
+    background-color: rgb(24, 24, 22);
+    color: inherit;
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 1.5em 0;
+    text-align: center;
+    font-size: 20px;
+    margin: 2%;
+    margin-right: 65%;
+
+}
+
+h2 {
+    font-size: 36px;
+}
+
+.max-mar h3 {
     font-size: 28px;
-    padding: -2%;
-    }
-/* our team */
-    
+    margin: 2%;
+}
+
+/*  Our vision section */
+.vision {
+    background-image: url(../images/vision.jpg);
+    background-position: center;
+    background-size: 100%;
+    width: 100%;
+}
+
+.vision-info {
+    max-width: 900px;
+    margin: 0 auto;
+    color: white;
+    padding: 2%;
+}
+
+.vision-info a {
+    background-color: hsla(220, 20%, 5%, .4);
+    color: inherit;
+    color: white;
+    text-decoration: none;
+    padding: 1.5em 0;
+    text-align: center;
+    font-size: 20px;
+    display: inline-block;
+    width: 30%;
+    border: 1px solid darkgoldenrod;
+}
+
+h4 {
+    font-size: 28px;
+}
+
+/* our team section*/
+
 .our-team {
     max-width: 720px;
     margin: 0 auto;
@@ -259,47 +267,48 @@ article {
 }
 
 .our-team h2 {
-    flex-basis:100%;
-    }
-    
-    .john-image {
-        flex-basis: 100%;
-        order: 1;
-    }
-    .john-info {
-        flex-basis: 100%;
-        order: 2;
-    }
-    
-    .bob-info {
-        flex-basis: 100%;
-        order: 4;
-    
-    }
-    
-    .bob-image {
-        flex-basis: 100%;
-        order: 3;
-    }
-    
-.max-mar h5 {
-        font-size: 14px;
-      font-weight: bold;
-      margin: 2%;
-      
-  }
-  
-  .line {
-      border: 1px solid darkgoldenrod;
-      margin-top: -5px;
-      margin-right: 5%;
-      margin-left: 2%;
-  }
+    flex-basis: 100%;
+}
 
-  /* contact us  */
-  
-  .name input {
-    
+.john-image {
+    flex-basis: 100%;
+    order: 1;
+}
+
+.john-info {
+    flex-basis: 100%;
+    order: 2;
+}
+
+.bob-info {
+    flex-basis: 100%;
+    order: 4;
+
+}
+
+.bob-image {
+    flex-basis: 100%;
+    order: 3;
+}
+
+.max-mar h5 {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 2%;
+
+}
+
+.line {
+    border: 1px solid darkgoldenrod;
+    margin-top: -5px;
+    margin-right: 5%;
+    margin-left: 2%;
+}
+
+/* contact us section */
+
+.name input {
+
     font-size: 14px;
     margin-top: 15px;
     margin-bottom: 10px;
@@ -314,7 +323,7 @@ article {
     width: 100%;
     padding-top: 2%;
 }
-    
+
 .message input {
     font-size: 14px;
     margin-top: 15px;
@@ -336,13 +345,13 @@ article {
 }
 
 table {
-    
+
     border-collapse: collapse;
     width: 100%;
-    
+
 }
 
-table th, 
+table th,
 table td {
     border: 1px solid black;
     font-size: 16px;
@@ -354,15 +363,15 @@ thead {
 }
 
 .location {
-  width: 100%;
+    width: 100%;
 }
 
 .footer {
     background-color: rgb(24, 24, 22);
-    color: darkgoldenrod; 
+    color: darkgoldenrod;
     padding-top: 5%;
     padding-left: 2%;
-    
+
 }
 
 footer p {
@@ -374,357 +383,367 @@ footer p {
     margin: 0 auto;
 }
 
+/* desktop version */
 @media screen and (min-width:760px) {
-    
-
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 1em;
-}
 
 
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 1em;
+    }
 
-ul  {
-    max-width: 900px;
-    margin: 0 auto;
-    list-style: none;
-}
+    .nav-list img {
+        max-width: 100%; /* Ensure the image doesn't exceed its container width */
+        width: 70%; /* Allow the image to take the entire width available in the grid cell */
+        height: auto; /* Maintain the image's aspect ratio */
+        object-fit: contain; 
+        margin-top: -10%;
+    }
 
-nav  {
-    background-color: rgb(24, 24, 22);
-    padding: 2%;
-    padding-top: 3%;
-    padding-right: 100px;
-}
-
-.nav-list a,
-.nav-list a:link,
-.nav-list a:visited {
-    display: block;
-    padding: 1em 0;
-    text-align: center;
-    color: darkgoldenrod;
-    text-decoration: none;
-}
-.nav-list a:hover,
-.nav-list a:focus,
-.nav-list a.current { 
-    background-color: darkgoldenrod;
-    color: inherit;
-}
-
-.logo-container { 
-    background-color: rgb(24, 24, 22);
-}
-
-.nav-list {
-    display: flex;
-}
-
-.nav-list li {
-    flex: 1;
-    border: none;
+    ul {
+        max-width: 900px;
+        margin: 0 auto;
+        list-style: none;
+    }
+/* nav section */
  
-}
 
-.nav-list input {
-    padding: 10px;
-    font-size: 15px;
-    margin-top: 5px;
-    width: 50%;
-    margin-top: 15px;
-    
-}
+    .nav-list a,
+    .nav-list a:link,
+    .nav-list a:visited {
+        display: block;
+        padding: 1em 0;
+        text-align: center;
+        color: darkgoldenrod;
+        text-decoration: none;
+    }
 
-ul i {
-    background-color: rgb(24, 24, 22);
-    color: inherit;
-    display: block;
-    color: black;
-    padding: 0.3em 0.3em .3em 0.3em;
-    text-align: center;
-    font-size: 20px;
-    border: 1px solid rgb(197, 162, 8); 
-} 
+    .nav-list a:hover,
+    .nav-list a:focus,
+    .nav-list a.current {
+        background-color: darkgoldenrod;
+        color: inherit;
+    }
 
-header {
-    background-image: url(../images/main-banner.jpg);
-    background-position: center;
-    background-size: 100%;
-} 
+    .logo-container {
+        background-color: rgb(24, 24, 22);
+    }
 
-.banner {
-    padding: 2%;
-}
+    .nav-list {
+        display: flex;
+    }
 
-.three-star-media  {
-    max-width: 900px;
-    margin: 0 auto;
-    background-color:hsla(24, 24%, 10%, .8);
-    padding: 2%;
-}
+    .nav-list li {
+        flex: 1;
+        border: none;
 
-h1 {
-    color: white;
-    font-size: 70px;
-}
+    }
 
-.three-star-media p {
-    color: white;
-    font-size: 16px;
-}
-.three-star-media a {
-    background-color: darkgoldenrod;
-    color: inherit;
-    display: block;
-    color: black;
-    text-decoration: none;
-    margin-right: 70%;
-    padding: 1.5em 0;
-    text-align: center;
-    font-size: 25px;
-    
-}
+    .nav-list input {
+        padding: 10px;
+        font-size: 15px;
+        margin-top: 5px;
+        width: 50%;
+        margin-top: 15px;
 
-/* About us  */
-article {
-background-color: bisque;
-}
+    }
 
-.about-us {
-    background-color: bisque;
-    display: grid;
-    grid-template-columns: repeat(2,50%); /* Two columns of equal width */
-    grid-template-areas: 
-    "image info"
-}
-
-.about-image img {
- grid-area: image;
- width: 100%;
-}
-
-.about-info {
- grid-area: info;
-}
-
-/* our services */
-
-.our-services {
-   
-    max-width: 900px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(6, 1fr); 
-    grid-template-rows: repeat(2 1fr);
-    grid-template-areas: 
-    "header header header header header header"
-    "digital digital digital marketing marketing marketing"
-    "video video web web print print"; 
-    gap: 20px;
-    
-}
-
-.services {
-    grid-area: header;
-}
+    ul i {
+        background-color: rgb(24, 24, 22);
+        color: inherit;
+        display: block;
+        color: black;
+        padding: 0.3em 0.3em .3em 0.3em;
+        text-align: center;
+        font-size: 20px;
+        border: 1px solid rgb(197, 162, 8);
+    }
 
 
-.digital {
-    grid-area: digital;
-}
+    /* adds background image */
+    header {
+        background-image: url(../images/main-banner.jpg);
+        background-position: center;
+        background-size: 100%;
+    }
 
-.marketing {
-    grid-area: marketing;
-    
-}
-
-.video {
-    grid-area: video;
-}
-
-.web{
-    grid-area: web;
-}
-
-.print{
-    grid-area: print;
-}
-
-.max-mar a {
-    background-color: rgb(24, 24, 22);
-    color: inherit;
-    display: block;
-    color:white;
-    text-decoration: none;
-    padding: 1.5em 0;
-    text-align: center;
-    font-size: 20px;
-    margin: 5%;
-}
-
-/* Vision */
+    .banner {
+        padding: 2%;
+    }
 
 
-.vision-info {
-    max-width: 900px;
-    margin: 0 auto;
-    color: white;
-    padding: 1%;
-}
+    /* adds three star media banner section */
+    .three-star-media {
+        max-width: 900px;
+        margin: 0 auto;
+        background-color: hsla(24, 24%, 10%, .8);
+        padding: 2%;
+    }
 
-.vision-info a {
-    background-color:hsla(220, 20%, 5%, .4);
-    color: inherit;
-    color:white;
-    text-decoration: none;
-    padding: 1.5em 0;
-    text-align: center;
-    font-size: 20px;
-    display: inline-block;
-    width: 20%;
-    border: 1px solid darkgoldenrod;
-}
+    h1 {
+        color: white;
+        font-size: 70px;
+    }
+
+    .three-star-media p {
+        color: white;
+        font-size: 16px;
+    }
+
+    .three-star-media a {
+        background-color: darkgoldenrod;
+        color: inherit;
+        display: block;
+        color: black;
+        text-decoration: none;
+        margin-right: 70%;
+        padding: 1.5em 0;
+        text-align: center;
+        font-size: 25px;
+
+    }
+
+    /* About us section */
+    article {
+        background-color: bisque;
+    }
+
+    .about-us {
+        background-color: bisque;
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+        /* Two columns of equal width */
+        grid-template-areas:
+            "image info"
+    }
+
+    .about-image img {
+        grid-area: image;
+        width: 100%;
+    }
+
+    .about-info {
+        grid-area: info;
+    }
+
+    /* our services section */
+
+    .our-services {
+
+        max-width: 900px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-areas:
+            "header header header header header header"
+            "digital digital digital marketing marketing marketing"
+            "video video web web print print";
+        gap: 20px;
+
+    }
+
+    .services {
+        grid-area: header;
+    }
 
 
-/* Our Team */
+    .digital {
+        grid-area: digital;
+    }
 
-.our-team {
-    max-width: 900px;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-}
-/* Using flex to display them propperly on the desktop version. */
-.our-team h2 {
-flex-basis:100%;
-}
+    .marketing {
+        grid-area: marketing;
 
-.john-image {
-    flex-basis: 50%;
-    order: 2;
-}
-.john-info {
-    flex-basis: 50%;
-    order: 2;
-}
+    }
 
-.bob-info {
-    flex-basis: 50%;
-    order: 3;
+    .video {
+        grid-area: video;
+    }
 
-}
+    .web {
+        grid-area: web;
+    }
 
-.bob-image {
-    flex-basis: 50%;
-    order: 4;
-}
+    .print {
+        grid-area: print;
+    }
 
-.max-mar{
-    position: relative;
-}
+    .max-mar a {
+        background-color: rgb(24, 24, 22);
+        color: inherit;
+        display: block;
+        color: white;
+        text-decoration: none;
+        padding: 1.5em 0;
+        text-align: center;
+        font-size: 20px;
+        margin: 5%;
+    }
 
-.max-mar h5 {
-      font-size: 14px;
-    font-weight: bold;
-    margin: 2%;
-}
+    /* Vision section */
 
 
-/* contact us  */
+    .vision-info {
+        max-width: 900px;
+        margin: 0 auto;
+        color: white;
+        padding: 1%;
+    }
 
-.contact {
-    max-width: 900px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); 
-    
-    grid-template-areas: 
-    "header header"
-    "message location"
-    "hours hours"; 
-    gap: 20px;
-    padding: 8px;
-}
+    .vision-info a {
+        background-color: hsla(220, 20%, 5%, .4);
+        color: inherit;
+        color: white;
+        text-decoration: none;
+        padding: 1.5em 0;
+        text-align: center;
+        font-size: 20px;
+        display: inline-block;
+        width: 20%;
+        border: 1px solid darkgoldenrod;
+    }
 
-.contact h2 {
-    grid-area: header;
-}
 
-.message-info {
-  grid-area: message;
- 
-}
+    /* Our Team section*/
 
-.hours {
-  grid-area: hours;
-   
-}
+    .our-team {
+        max-width: 900px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
 
-.location {
-    grid-area: location;
-    
-}
+    /* Using flex to display them propperly on the desktop version. */
+    .our-team h2 {
+        flex-basis: 100%;
+    }
 
-.name input {
-    padding: 5px;
-    font-size: 14px;
-    margin-top: 15px;
-    width: 430px;
-}
+    .john-image {
+        flex-basis: 50%;
+        order: 2;
+    }
 
-.email input {
-    padding: 5px;
-    font-size: 14px;
-    margin-top: 15px;
-    width: 430px;
-}
-    
-.message input {
-    padding: 5px;
-    font-size: 14px;
-    margin-top: 15px;
-    width: 430px;
-    padding-top: 100px;
-}
+    .john-info {
+        flex-basis: 50%;
+        order: 2;
+    }
 
-.contact a {
-    background-color: rgb(24, 24, 22);
-    color: inherit;
-    display: block;
-    color: darkgoldenrod;
-    text-decoration: none;
-    margin-right: 85%;
-    margin-top: 5%;
-    padding: .3em 2.3em .3em .1em;
-    text-align: center;
-    font-size: 20px;
-    
-}
+    .bob-info {
+        flex-basis: 50%;
+        order: 3;
 
-table {
-    border-collapse: collapse;
-    width: 155%;
-    
-}
+    }
 
-.location {
- width: 215%;
-}
+    .bob-image {
+        flex-basis: 50%;
+        order: 4;
+    }
 
-.footer {
-    background-color: rgb(24, 24, 22);
-    color: darkgoldenrod; 
-    padding-top: 2%;
-}
+    .max-mar {
+        position: relative;
+    }
 
-footer p {
-    padding-bottom: 2%;
-}
+    .max-mar h5 {
+        font-size: 14px;
+        font-weight: bold;
+        margin: 2%;
+    }
 
-.footer-info {
-    max-width: 900px;
-    margin: 0 auto;
-}
+
+    /* contact us section */
+
+    .contact {
+        max-width: 900px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+
+        grid-template-areas:
+            "header header"
+            "message location"
+            "hours hours";
+        gap: 20px;
+        padding: 8px;
+    }
+
+    .contact h2 {
+        grid-area: header;
+    }
+
+    .message-info {
+        grid-area: message;
+
+    }
+
+    .hours {
+        grid-area: hours;
+
+    }
+
+    .location {
+        grid-area: location;
+
+    }
+
+    .name input {
+        padding: 5px;
+        font-size: 14px;
+        margin-top: 15px;
+        width: 430px;
+    }
+
+    .email input {
+        padding: 5px;
+        font-size: 14px;
+        margin-top: 15px;
+        width: 430px;
+    }
+
+    .message input {
+        padding: 5px;
+        font-size: 14px;
+        margin-top: 15px;
+        width: 430px;
+        padding-top: 100px;
+    }
+
+    .contact a {
+        background-color: rgb(24, 24, 22);
+        color: inherit;
+        display: block;
+        color: darkgoldenrod;
+        text-decoration: none;
+        margin-right: 85%;
+        margin-top: 5%;
+        padding: .3em .3em .3em .1em;
+        text-align: center;
+        font-size: 20px;
+
+    }
+
+    table {
+        border-collapse: collapse;
+        width: 155%;
+
+    }
+
+    .location {
+        width: 215%;
+    }
+/* footer section */
+    .footer {
+        background-color: rgb(24, 24, 22);
+        color: darkgoldenrod;
+        padding-top: 2%;
+    }
+
+    footer p {
+        padding-bottom: 2%;
+    }
+
+    .footer-info {
+        max-width: 900px;
+        margin: 0 auto;
+    }
 }
