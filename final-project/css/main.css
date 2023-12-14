@@ -19,7 +19,6 @@ ul {
     list-style: none;
 }
 
-
 nav  {
     background-color: rgb(24, 24, 22);
     padding: 2%;
@@ -31,9 +30,6 @@ ul li {
     color: black;
 }
 
-
-
- 
 .nav-list a,
 .nav-list :link,
 .nav-list a:visited {
@@ -53,17 +49,12 @@ ul li {
     color: inherit;
 }
 
-
-
-
 .nav-list input {
     padding: 5px;
     font-size: 14px;
     margin-top: 12px;
     width: 85%;
 }
-
-/* come back to fix magnifying glass */
 
 ul i {
     background-color: rgb(24, 24, 22);
@@ -107,7 +98,6 @@ h1 {
     font-size: 20px;
 }
     
-
 header {
         background-image: url(../images/main-banner.jpg);
         background-position:bottom;
@@ -152,9 +142,6 @@ article {
        
     }
     
-    
-
-
 /* our services */
     .our-services {
    
@@ -189,14 +176,10 @@ article {
         flex-basis: 100%;
     }
     
-
-    
-    
     /* allows to style Oer services cards all at once */
     .max-mar {
     background-color:bisque; 
     font-size: 14px;
-    
     }
     
     .max-mar p {
@@ -211,7 +194,6 @@ article {
         padding-right: 50%;
     }
     
-   
     .max-mar a {
         background-color: rgb(24, 24, 22);
         color: inherit;
@@ -300,7 +282,6 @@ article {
         order: 3;
     }
     
-
 .max-mar h5 {
         font-size: 14px;
       font-weight: bold;
@@ -317,8 +298,6 @@ article {
 
   /* contact us  */
   
- 
-
   .name input {
     
     font-size: 14px;
@@ -356,7 +335,6 @@ article {
     font-size: 20px;
 }
 
-
 table {
     
     border-collapse: collapse;
@@ -371,11 +349,9 @@ table td {
     padding: 16px;
 }
 
-
 thead {
     background-color: bisque;
 }
-
 
 .location {
   width: 100%;
@@ -398,7 +374,6 @@ footer p {
     margin: 0 auto;
 }
 
-
 @media screen and (min-width:760px) {
     
 
@@ -408,34 +383,20 @@ footer p {
     padding: 1em;
 }
 
-.nav-list img {
-    max-width: 100%; /* Ensure the image doesn't exceed its container width */
-    width: 70%; /* Allow the image to take the entire width available in the grid cell */
-    height: auto; /* Maintain the image's aspect ratio */
-    object-fit: contain; 
-    margin-top: -10%;
-}
 
-ul {
+
+ul  {
     max-width: 900px;
     margin: 0 auto;
     list-style: none;
 }
 
-
 nav  {
     background-color: rgb(24, 24, 22);
     padding: 2%;
     padding-top: 3%;
-    padding-right: 8%;
+    padding-right: 100px;
 }
-
-ul li {
-    color: white;
-}
-
-
-
 
 .nav-list a,
 .nav-list a:link,
@@ -468,9 +429,12 @@ ul li {
 }
 
 .nav-list input {
-    padding: 5px;
-    font-size: 14px;
-    margin-top: 12px;
+    padding: 10px;
+    font-size: 15px;
+    margin-top: 5px;
+    width: 50%;
+    margin-top: 15px;
+    
 }
 
 ul i {
@@ -478,12 +442,11 @@ ul i {
     color: inherit;
     display: block;
     color: black;
-    padding: 0.1em 0.1em .1em 0.1em;
+    padding: 0.3em 0.3em .3em 0.3em;
     text-align: center;
     font-size: 20px;
     border: 1px solid rgb(197, 162, 8); 
 } 
-
 
 header {
     background-image: url(../images/main-banner.jpg);
@@ -524,45 +487,27 @@ h1 {
     
 }
 
-
-
 /* About us  */
 article {
 background-color: bisque;
-
-
-}
-
-.about-us {
-    max-width: 900px;
-    margin: 0 auto;
-
 }
 
 .about-us {
     background-color: bisque;
     display: grid;
-    grid-template-columns: 1fr 50%; /* Two columns of equal width */
-    gap: 20px; /* Gap between the columns */
+    grid-template-columns: repeat(2,50%); /* Two columns of equal width */
+    grid-template-areas: 
+    "image info"
 }
 
 .about-image img {
-    max-width: 100%; /* Ensure the image doesn't exceed its container width */
-    width: 100%; /* Allow the image to take the entire width available in the grid cell */
-    height: auto; /* Maintain the image's aspect ratio */
-    object-fit: contain; 
-    padding: 1em 0em; 
+ grid-area: image;
+ width: 100%;
 }
 
 .about-info {
-    max-width: 100%; /* Ensure the image doesn't exceed its container width */
-    width: 100%; /* Allow the image to take the entire width available in the grid cell */
-    height: auto; /* Maintain the image's aspect ratio */
-    object-fit: contain;
-   
+ grid-area: info;
 }
-
-
 
 /* our services */
 
@@ -607,26 +552,6 @@ background-color: bisque;
     grid-area: print;
 }
 
-
-/* allows to style Oer services cards all at once */
-.max-mar {
-background-color:bisque; 
-font-size: 14px;
-
-}
-
-.max-mar p {
-padding: 2%;
-}
-
-.max-mar img {
-    max-width: 100%; /* Ensure the image doesn't exceed its container width */
-    width: 100%; /* Allow the image to take the entire width available in the grid cell */
-    height: auto; /* Maintain the image's aspect ratio */
-    object-fit: contain; 
-    padding-right: 50%;
-}
-
 .max-mar a {
     background-color: rgb(24, 24, 22);
     color: inherit;
@@ -639,22 +564,8 @@ padding: 2%;
     margin: 5%;
 }
 
-h2 { 
-    font-size: 36px;
-}
-
-.max-mar h3 {
-    font-size: 28px;
-    margin: 2%;
-}
-
 /* Vision */
 
-.vision {
-    background-image: url(../images/vision.jpg);
-    background-position: center;
-    background-size: 100%;
-}
 
 .vision-info {
     max-width: 900px;
@@ -676,9 +587,6 @@ h2 {
     border: 1px solid darkgoldenrod;
 }
 
-h4 {
-font-size: 28px;
-}
 
 /* Our Team */
 
@@ -721,14 +629,6 @@ flex-basis:100%;
       font-size: 14px;
     font-weight: bold;
     margin: 2%;
-    
-}
-
-.line {
-    border: 1px solid darkgoldenrod;
-    margin-top: -5px;
-    margin-right: 5%;
-    margin-left: 2%;
 }
 
 
@@ -771,21 +671,21 @@ flex-basis:100%;
     padding: 5px;
     font-size: 14px;
     margin-top: 15px;
-    width: 400px;
+    width: 430px;
 }
 
 .email input {
     padding: 5px;
     font-size: 14px;
     margin-top: 15px;
-    width: 400px;
+    width: 430px;
 }
     
 .message input {
     padding: 5px;
     font-size: 14px;
     margin-top: 15px;
-    width: 400px;
+    width: 430px;
     padding-top: 100px;
 }
 
@@ -797,7 +697,7 @@ flex-basis:100%;
     text-decoration: none;
     margin-right: 85%;
     margin-top: 5%;
-    padding: .3em 0;
+    padding: .3em 2.3em .3em .1em;
     text-align: center;
     font-size: 20px;
     
@@ -805,20 +705,8 @@ flex-basis:100%;
 
 table {
     border-collapse: collapse;
-    width: 900px;
+    width: 155%;
     
-}
-
-table th, 
-table td {
-    border: 1px solid black;
-    font-size: 16px;
-    padding: 16px;
-}
-
-
-thead {
-    background-color: bisque;
 }
 
 .location {
@@ -828,16 +716,15 @@ thead {
 .footer {
     background-color: rgb(24, 24, 22);
     color: darkgoldenrod; 
-    padding-top: 1%;
+    padding-top: 2%;
 }
 
 footer p {
-    padding-bottom: 1%;
+    padding-bottom: 2%;
 }
 
 .footer-info {
     max-width: 900px;
     margin: 0 auto;
 }
-
 }
