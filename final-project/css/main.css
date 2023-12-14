@@ -302,7 +302,7 @@ article {
     padding: 5px;
     font-size: 14px;
     margin-top: 15px;
-    width: 600px;
+    width: 90%;
 }
 
  /* they dont shrink with the rest, might be one of the squares */
@@ -312,14 +312,14 @@ article {
     padding: 5px;
     font-size: 14px;
     margin-top: 15px;
-    width: 600px;
+    width: 90%;
 }
     
 .message input {
     padding: 5px;
     font-size: 14px;
     margin-top: 15px;
-    width: 600px;
+    width: 90%;
     padding-bottom: 100px;
 }
 
@@ -373,7 +373,7 @@ footer p {
 }
 
 
-@media screen and (min-width:1200px) {
+@media screen and (min-width:760px) {
     
 
 .container {
@@ -669,7 +669,7 @@ flex-basis:100%;
 
 .john-image {
     flex-basis: 50%;
-    order: 1;
+    order: 2;
 }
 .john-info {
     flex-basis: 50%;
