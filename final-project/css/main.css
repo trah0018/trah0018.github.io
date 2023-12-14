@@ -1,12 +1,11 @@
-html {
-    font-family: Arial, Helvetica, sans-serif;
-
-}
-
 .container {
-    max-width: 720px;
+    max-width: 760px;
     margin: 0 auto;
     padding: 1em;
+}
+
+body {
+ font-family: 'Open sans', sans-serif;
 }
 
 h3 {
@@ -121,7 +120,7 @@ article {
 }
 
 .about-us {
-    max-width: 900px;
+    max-width: 760px;
     margin: 0 auto;
 
 }
@@ -153,7 +152,7 @@ article {
 /* our services section */
 .our-services {
 
-    max-width: 720px;
+    max-width: 760px;
     margin: 0 auto;
 
 }
@@ -379,7 +378,7 @@ footer p {
 }
 
 .footer-info {
-    max-width: 720px;
+    max-width: 760px;
     margin: 0 auto;
 }
 
